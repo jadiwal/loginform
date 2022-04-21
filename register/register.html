@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+
+        }
+
+        body{
+            background: url("./bg.jpg") no-repeat;
+            background-size: cover;
+            color: #fff;
+            height: 100vh;
+        }
+        .registration-form{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 350px;
+
+        }
+        .registration-form h1{
+            font-size: 25px;
+            text-align: center;
+            text-transform: uppercase;
+            margin: 30px 0;
+
+        }
+        .registration-form p{
+            font-size: 20px;
+            margin: 15px 0;
+
+
+        }
+        .registration-form input{
+            font-size: 16px;
+            padding: 15px 10px;
+            width: 100%;
+            border: 0;
+            border-radius: 5px;
+            outline: none;
+
+        }
+        .registration-form button{
+            font-size: 18px;
+            font-weight: bold;
+            margin: 20px 0;
+            padding: 10pz 15px;
+            width: 50%;
+            border: 0;
+            border-radius: 5px;
+            background-color: #fff;
+
+        }
+        .registration-form button:hover{
+            color:red ;
+        }
+        .registration-form button a{
+            color: black;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="registration-form">
+        <h1>Registraion Form</h1>
+        <form action="#">
+            <p>Full Name:</p>
+            <input type="text" name="fullname" placeholder="Full Name">
+            <p>User Name:</p>
+            <input type="text" name="username" placeholder="User name">
+            <p>Email:</p>
+            <input type="email" name="email" placeholder="Email">
+            <p>Password:</p>
+            <input type="password" name="password" placeholder="Password">
+            <button type="submit"><a href="loginForm.html">Register</a></button>
+        </form>
+    </div>
+
+</body>
+<script>
+
+    
+</script>
+</html>
